@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex Genta Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="white-removebg-preview.png" type="image/x-icon">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <section id="home">
+        <div class="container">
+            <div class="vortex">
+                <p>Vortex</p>
+            </div>
+            <span class="material-symbols-outlined" id="mode">dark_mode</span>
+
+            <div class="nav">
+                <div class="burger-menu">
+                    <div class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Studies Case</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container-about">
+            <div class="hero-about">
+                <p class="intro">Hello My Name Is <span class="name"></span></p>
+                <p class="proff"><strong>Transforming Ideas Into
+                    Digital Experiences</strong><br></p>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ducimus!</p>
+                <button class="button-about-contact" onclick="location.href='#footer'">Contact Me</button>
+            </div>
+            <div class="pfp">
+                <img src="zoro-removebg-preview.png" alt="This Is A Profile Of Roronoa" class="pfpmg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="specialized">
+            <p>Technical Specialized</p>
+        </div>
+    
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <h1>Front End Developer</h1>
+                    <p>React & Next.js <br>
+                        TypeScript <br>
+                        Tailwind CSS <br>
+                        Responsive Design</p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-content">
+                    <h1>Full Stack Developer</h1>
+                    <p>Node.js & Express <br>
+                        Python <br>
+                        RESTful APIs <br>
+                        Microservices</p>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="card-content">
+                    <h1>Back End Developer</h1>
+                    <p>PostgreSQL <br>
+                        MongoDB <br>
+                        Docker <br>
+                        CI/CD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Work -->
+    <section id="recent" class="recent-container">
+        
+        <div class="specialized">
+            <p>My Recent Project</p>
+        </div>
+        <div class="container-recent" id="container">
+        
+        </div>
+        <div class="navigation-button">
+            <input type="text" name="" id="filterSearch">
+            <p class="loading" id="loading"></p>
+            <button id="prev" class="prev-class">prev</button>
+            <span id="pageDisplay"></span>
+            <button id="next" class="next-class">Next</button>
+        </div>
+    </section>
+
+    <!-- Contact  -->
+    <section id="contact">
+        <div class="container-contact">
+            <h2 class="detail">DETAILED CASE STUDIES</h2>
+        <p>Meanwhile,you can see a simple timline below or view my recent work on GitHub,I'il be more than happy <br>to present  and talk about previous projects over a Video Call</p>
+    
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>SMKN 1 Cibinong</span>
+                <p>2023 - 2025</p>
+            </div>
+            <div class="contact-item">
+                <span>Universitas Negeri Jakarta</span>
+                <p>2025 - 2029</p>
+            </div>
+            <div class="contact-item">
+                <span>RST - IT</span>
+                <p>2028 - 2031</p>
+            </div>
+            <div class="contact-item">
+                <span>Gagas - Media</span>
+                <p>2031 - 2034</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- CTA And Footer -->
+    <section id="footer">
+        <footer>
+            <div class="cta">
+                <h2>Let's Create Something Amazing</h2>
+                <p>I'm always excited to connect with fellow developers, potential clients, and anyone passionate about technology.</p>
+                <a href="mailto:gentaprawira24@email.com" class="cta-btn">
+                    <span>📩</span> Start a Conversation
+                </a>
+            </div>
+        
+            <div class="footer-bottom">
+                <p class="copy">© 2024 Genta Prawira D. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Selalualwayskadangkidding"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">🔗</a>
+                    <a href="mailto:yourname@email.com">✉️</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
